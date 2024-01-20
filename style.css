@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.material-icons{
+    color: rgb(96, 96, 96);
+}
+.header{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+}
+
+.header .header_left{
+    border: 2px solid red;
+   display: flex; 
+   align-items: center;
+}
+
+.header .header_left img{
+    width: 150px;
+    margin-left: 10px;
+}
+.header .header_left i{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.header_search form{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: px;
+    display: flex;
+    border-radius: 25px;
+}
+.header_search form input{
+    width: 500px;
+    padding: 10px;
+    margin: 0px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+.header_search button{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: none;
+    width: 40px;
+}
+.header_search form button{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+}
+.header_search{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_search .mic{
+    /* width: 25px;
+    height: 25px; */
+    display: flex;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+.header_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic{
+    width: 32px;
+    height: 32px;
+    
+}
+.pic img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header_icon i{
+    padding: 10px;
+    cursor: pointer;
+}
+.main{
+    /* display: flex; */
+    height: 100vh;
+    border: 2px solid green;
+}
+.sidebar{
+    height: 100%;
+    width: 230px;
+    background-color: #fff;
+    overflow-y: scroll;
+
+}
+.sidebar_categories{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sidebar_category{
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    
+}
+.sidebar_category span{
+    margin-left: 15px;
+}
+.sidebar_category:hover{
+    background-color: #e5e5e5;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.nav2{
+    width: 100vw;
+    height: 70px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 2px solid red;
+}
+p{
+    background-color: #e5e5e5;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+
